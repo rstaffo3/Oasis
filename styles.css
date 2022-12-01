@@ -234,6 +234,21 @@ height:auto;
     text-align: center;
  }
 
+ #about img {
+  padding-bottom: 5em;
+ }
+
+ #about h2 {
+  padding-bottom: 3em;
+ }
+
+ #about p {
+  padding-bottom: 5em;
+  font-size: 1.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+ }
+
  @media (max-width: 700px) {
   .menu-button-container {
     display: flex;
@@ -273,6 +288,19 @@ height:auto;
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
+}
+
+#menu img {
+  width: 100%;
+}
+
+#about img {
+  width: 100%;
+}
+
+#about h2 {
+  text-align: center;
+  font-size: 2em;
 }
 
 @media (min-width: 720px) {
@@ -316,4 +344,14 @@ li a{
   background-image: linear-gradient(#ECE0C8, #DEB853); 
 }
 
+#menu {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#about {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #FFF;
+}
 }
