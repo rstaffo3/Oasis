@@ -303,6 +303,29 @@ height:auto;
   font-size: 2em;
 }
 
+#contact img {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  padding-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+form {
+  padding-top: 1.5em;
+}
+
+label {
+  padding-bottom: 2em;
+}
+
+textarea {
+  width: 100%;
+}
+
 @media (min-width: 720px) {
 
 .logo {
@@ -354,4 +377,11 @@ li a{
   margin: 0 auto;
   background-color: #FFF;
 }
+
+#contact {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #FFF;
+}
+
 }
