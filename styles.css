@@ -288,6 +288,10 @@ height:auto;
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
+
+  li a {
+    color: #FFF;
+  }
 }
 
 #menu img {
